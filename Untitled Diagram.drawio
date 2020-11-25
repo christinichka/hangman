@@ -1,1 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T19:00:34.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.3" etag="gmPm37MjnfIIoLF5Qcy-" type="github"><diagram id="vxTDkqJKm2DfpR0bhxSP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-25T19:09:48.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qSJDw1Wm6cwPUH80lB6g" version="13.10.3" type="github">
+  <diagram id="vxTDkqJKm2DfpR0bhxSP" name="Page-1">
+    <mxGraphModel dx="806" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="splLWqiB4osCJYnsvkYa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-3" target="splLWqiB4osCJYnsvkYa-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-3" value="Start" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-4" target="splLWqiB4osCJYnsvkYa-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-4" value="Generate random word" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-6" target="splLWqiB4osCJYnsvkYa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-6" value="Generate enough blank spaces per letter in word" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-8" target="splLWqiB4osCJYnsvkYa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-8" value="Game begins - Get user input for letter guess" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-10" target="splLWqiB4osCJYnsvkYa-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-10" target="splLWqiB4osCJYnsvkYa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-10" value="Determine if the letter guessed is in the word" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-12" target="splLWqiB4osCJYnsvkYa-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-12" value="If No, lose a life" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-14" target="splLWqiB4osCJYnsvkYa-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-14" value="If YES, fill in blanks with that letter" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-16" target="splLWqiB4osCJYnsvkYa-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-16" value="Check if there are more blanks" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-18" target="splLWqiB4osCJYnsvkYa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-18" value="Check if the user has more guesses" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="splLWqiB4osCJYnsvkYa-20" target="splLWqiB4osCJYnsvkYa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-20" value="Check if the user has more guesses" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="splLWqiB4osCJYnsvkYa-28" value="Game Ends" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="370" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
